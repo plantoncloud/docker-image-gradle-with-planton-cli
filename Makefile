@@ -1,6 +1,6 @@
 docker_image_repo=us-central1-docker.pkg.dev/ca-planton-gcp-sh-zg/afs-planton-oss-gcp-uc1-docker
 docker_image_path=github.com/plantoncloud/docker-image-gradle-with-planton-cli
-docker_image_tag?=gradle-8-1-1-planton-cli-v0.0.60
+docker_image_tag?=gradle-8-1-1-planton-cli-v0.0.61
 docker_image=${docker_image_repo}/${docker_image_path}:${docker_image_tag}
 
 .PHONY: build
